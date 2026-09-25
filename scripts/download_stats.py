@@ -1,4 +1,4 @@
-"""Record cumulative release download counts and render them as SVG charts.
+"""Record cumulative release download and Microsoft Store install counts and render them as SVG charts.
 
 Usage: python download_stats.py [output_dir]
 """
@@ -27,12 +27,16 @@ LABELS = {
 }
 
 INSTALL_KEYS = ("win_setup", "win_portable", "linux")
+TOTAL_KEYS = (*INSTALL_KEYS, "ms_store")
+
+STORE_EXPORT = "Apps-and-Games-Installs.csv"
+STORE_HISTORY = "ms-store.csv"
 
 CHARTS = {
     "total": {
         "title": "Installs",
-        "subtitle": "Cumulative installer downloads across all versions and platforms",
-        "series": [("All platforms", INSTALL_KEYS, 0)],
+        "subtitle": "Cumulative installer downloads and Microsoft Store installs",
+        "series": [("All platforms", TOTAL_KEYS, 0)],
     },
     "installs": {
         "title": "Installs",
@@ -43,6 +47,11 @@ CHARTS = {
         "title": "Updates",
         "subtitle": "Cumulative update package downloads across all versions",
         "series": [(LABELS["updates_win"], ("updates_win",), 0), (LABELS["updates_linux"], ("updates_linux",), 2)],
+    },
+    "ms-store": {
+        "title": "Microsoft Store installs",
+        "subtitle": "Cumulative installs from the Partner Center installs report",
+        "series": [("Microsoft Store", ("ms_store",), 0)],
     },
 }
 
@@ -149,6 +158,50 @@ def write_rows(path, rows):
         writer = csv.DictWriter(file, fieldnames=FIELDS, lineterminator="\n")
         writer.writeheader()
         writer.writerows(rows)
+
+
+def read_store_export(path):
+    if not path.exists():
+        return {}
+    with path.open(newline="", encoding="utf-8-sig") as file:
+        return {row["Date"][:10]: int(float(row["All"] or 0)) for row in csv.DictReader(file)}
+
+
+def update_store_history(out_dir):
+    """Merge the uploaded report into a persistent daily history and return it sorted by date."""
+    path = out_dir / STORE_HISTORY
+    history = {}
+    if path.exists():
+        with path.open(newline="") as file:
+            history = {row["date"]: int(row["installs"]) for row in csv.DictReader(file)}
+    history.update(read_store_export(out_dir / STORE_EXPORT))
+    daily = sorted(history.items())
+    if daily:
+        with path.open("w", newline="") as file:
+            writer = csv.writer(file, lineterminator="\n")
+            writer.writerow(["date", "installs"])
+            writer.writerows(daily)
+    return daily
+
+
+def combine(rows, store_daily):
+    """Build one timeline with GitHub totals carried forward and cumulative store installs."""
+    github = {row["date"]: row for row in rows}
+    daily = dict(store_daily)
+    current = {"latest_tag": None, **dict.fromkeys(COUNTS, 0)}
+    store_total, combined = 0, []
+    for day in sorted(github.keys() | daily.keys()):
+        current = github.get(day, current)
+        store_total += daily.get(day, 0)
+        combined.append({**current, "date": day, "ms_store": store_total})
+    return combined
+
+
+def drop_leading_zeros(rows, keys):
+    for i, row in enumerate(rows):
+        if any(row[key] for key in keys):
+            return rows[i:]
+    return []
 
 
 def nice_step(maximum, target_ticks=4):
@@ -294,21 +347,40 @@ def picture(name, alt):
     )
 
 
-def render_readme(rows):
+def render_store_section(store_rows):
+    if not store_rows:
+        return ""
+    latest = store_rows[-1]
+    alt = f"Line chart of cumulative Microsoft Store installs over time. Total: {latest['ms_store']:,}."
+    return f"""
+## Microsoft Store
+
+{picture("ms-store", alt)}
+
+{latest["ms_store"]:,} installs as of {latest["date"]}, the last day in the uploaded report.
+"""
+
+
+def render_readme(rows, total_rows, store_rows):
     latest = rows[-1]
     installs = sum(latest[key] for key in INSTALL_KEYS)
+    total = sum(total_rows[-1][key] for key in TOTAL_KEYS)
     updates = latest["updates_win"] + latest["updates_linux"]
     table = "\n".join(f"| {LABELS[key]} | {latest[key]:,} |" for key in COUNTS)
     return f"""# Kickerino download stats
 
-Cumulative downloads of Kickerino release files. A [GitHub Actions workflow](https://github.com/{REPO}/actions/workflows/download-stats.yml) updates this branch daily.
+Cumulative downloads of Kickerino release files and Microsoft Store installs. A [GitHub Actions workflow](https://github.com/{REPO}/actions/workflows/download-stats.yml) updates this branch daily.
 
 Back to the [main README](https://github.com/{REPO}).
 
-## Installs
+## Total installs
+
+{picture("total", f"Line chart of cumulative installs over time, including the Microsoft Store. Total: {total:,}.")}
+
+## Installer downloads
 
 {picture("installs", f"Line chart of cumulative installer downloads over time. Total: {installs:,}.")}
-
+{render_store_section(store_rows)}
 ## Updates
 
 {picture("updates", f"Line chart of cumulative update package downloads over time. Total: {updates:,}.")}
@@ -325,7 +397,9 @@ As of {latest["date"]} (latest release: {latest["latest_tag"]}).
 
 - Totals include every release, not only the latest one.
 - Installs count `Kickerino-win-Setup.exe`, `Kickerino-win-Portable.zip` and `Kickerino.AppImage`.
-- Microsoft Store installs are not included.
+- Microsoft Store installs come from the Partner Center installs report, uploaded manually as [`{STORE_EXPORT}`]({STORE_EXPORT}).
+- Each run merges that report into [`{STORE_HISTORY}`]({STORE_HISTORY}), so days older than the report's date range are kept.
+- Total installs include Microsoft Store installs up to the last day in the uploaded report.
 - Updates count the `.nupkg` packages downloaded by the auto-updater.
 - Update checks (`releases.*.json` and `RELEASES`) are not counted.
 - A row is added to [`downloads.csv`](downloads.csv) only when a total changes.
@@ -346,10 +420,24 @@ def main():
     record(rows, snapshot(releases, datetime.now(timezone.utc).date().isoformat()))
     write_rows(csv_path, rows)
 
+    store_daily = update_store_history(out_dir)
+    combined = combine(rows, store_daily)
+    store_end = store_daily[-1][0] if store_daily else ""
+    chart_rows = {
+        "total": drop_leading_zeros(combined, TOTAL_KEYS),
+        "installs": rows,
+        "updates": rows,
+        "ms-store": drop_leading_zeros([row for row in combined if row["date"] <= store_end], ("ms_store",)),
+    }
+
     for name, chart in CHARTS.items():
+        if not chart_rows[name]:
+            continue
         for theme in THEMES:
-            (out_dir / f"{name}-{theme}.svg").write_text(render_chart(rows, chart, theme), encoding="utf-8")
-    (out_dir / "README.md").write_text(render_readme(rows), encoding="utf-8")
+            svg = render_chart(chart_rows[name], chart, theme)
+            (out_dir / f"{name}-{theme}.svg").write_text(svg, encoding="utf-8")
+    readme = render_readme(rows, chart_rows["total"], chart_rows["ms-store"])
+    (out_dir / "README.md").write_text(readme, encoding="utf-8")
     print(f"Recorded {len(rows)} rows in {csv_path}")
 
 
