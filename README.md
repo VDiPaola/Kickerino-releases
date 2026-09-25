@@ -22,4 +22,4 @@ Cumulative downloads over time (not including ms store)
   <img alt="Line chart of cumulative Kickerino installer downloads over time" src="https://raw.githubusercontent.com/VDiPaola/Kickerino-releases/stats/total-light.svg">
 </picture>
 
-See **[download stats](https://github.com/VDiPaola/Kickerino-releases/tree/stats)** for update downloads and the raw data.
+See **[download stats](https://github.com/VDiPaola/Kickerino-releases/tree/stats)** for more data.
