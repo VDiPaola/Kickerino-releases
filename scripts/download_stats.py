@@ -26,16 +26,23 @@ LABELS = {
     "updates_linux": "Linux updates",
 }
 
+INSTALL_KEYS = ("win_setup", "win_portable", "linux")
+
 CHARTS = {
+    "total": {
+        "title": "Installs",
+        "subtitle": "Cumulative installer downloads across all versions and platforms",
+        "series": [("All platforms", INSTALL_KEYS, 0)],
+    },
     "installs": {
         "title": "Installs",
         "subtitle": "Cumulative installer downloads across all versions",
-        "series": [("win_setup", 0), ("win_portable", 1), ("linux", 2)],
+        "series": [(LABELS[key], (key,), slot) for slot, key in enumerate(INSTALL_KEYS)],
     },
     "updates": {
         "title": "Updates",
         "subtitle": "Cumulative update package downloads across all versions",
-        "series": [("updates_win", 0), ("updates_linux", 2)],
+        "series": [(LABELS["updates_win"], ("updates_win",), 0), (LABELS["updates_linux"], ("updates_linux",), 2)],
     },
 }
 
@@ -172,12 +179,14 @@ def spread_labels(positions, top, bottom):
 def render_chart(rows, chart, theme):
     t = THEMES[theme]
     series = chart["series"]
+    values = [[sum(row[key] for key in keys) for row in rows] for _, keys, _ in series]
+    ends = [series_values[-1] for series_values in values]
     days = [date.fromisoformat(row["date"]) for row in rows]
     span = max(1, (days[-1] - days[0]).days)
     first = date.fromordinal(days[-1].toordinal() - span)
     x0, x1, y0, y1 = LEFT, WIDTH - RIGHT, TOP, HEIGHT - BOTTOM
 
-    peak = max(row[key] for row in rows for key, _ in series)
+    peak = max(max(series_values) for series_values in values)
     step = nice_step(peak)
     y_max = max(step, math.ceil(peak / step) * step)
 
@@ -188,8 +197,8 @@ def render_chart(rows, chart, theme):
         return y1 - value / y_max * (y1 - y0)
 
     latest = rows[-1]
-    total = sum(latest[key] for key, _ in series)
-    summary = ", ".join(f"{LABELS[key]} {latest[key]:,}" for key, _ in series)
+    total = sum(ends)
+    summary = ", ".join(f"{label} {end:,}" for (label, _, _), end in zip(series, ends))
     description = (
         f"{chart['subtitle']} from {rows[0]['date']} to {latest['date']}. "
         f"Total {total:,}: {summary}."
@@ -208,15 +217,15 @@ def render_chart(rows, chart, theme):
     ]
 
     legend_x = x0
-    for key, slot in series:
+    for label, _, slot in series if len(series) > 1 else []:
         out.append(
             f'<line x1="{legend_x}" y1="76" x2="{legend_x + 16}" y2="76" stroke="{t["series"][slot]}" '
             f'stroke-width="2" stroke-linecap="round"/>'
         )
-        out.append(f'<text x="{legend_x + 22}" y="80" font-size="12" fill="{t["secondary"]}">{LABELS[key]}</text>')
-        legend_x += 22 + len(LABELS[key]) * 6.2 + 18
-    out.append(f'<line x1="{legend_x + 8}" y1="70" x2="{legend_x + 8}" y2="82" stroke="{t["muted"]}"/>')
-    out.append(f'<text x="{legend_x + 16}" y="80" font-size="12" fill="{t["secondary"]}">Release</text>')
+        out.append(f'<text x="{legend_x + 22}" y="80" font-size="12" fill="{t["secondary"]}">{label}</text>')
+        legend_x += 22 + len(label) * 6.2 + 26
+    out.append(f'<line x1="{legend_x}" y1="70" x2="{legend_x}" y2="82" stroke="{t["muted"]}"/>')
+    out.append(f'<text x="{legend_x + 8}" y="80" font-size="12" fill="{t["secondary"]}">Release</text>')
 
     for tick in range(0, y_max + 1, step):
         ty = y(tick)
@@ -247,20 +256,20 @@ def render_chart(rows, chart, theme):
             )
         previous_tag = row["latest_tag"]
 
-    for key, slot in series:
-        points = " ".join(f"{x(day):.1f},{y(row[key]):.1f}" for row, day in zip(rows, days))
+    for (_, _, slot), series_values in zip(series, values):
+        points = " ".join(f"{x(day):.1f},{y(value):.1f}" for value, day in zip(series_values, days))
         out.append(
             f'<polyline points="{points}" fill="none" stroke="{t["series"][slot]}" stroke-width="2" '
             f'stroke-linejoin="round" stroke-linecap="round"/>'
         )
 
     end_x = x(days[-1])
-    end_ys = [y(latest[key]) for key, _ in series]
+    end_ys = [y(end) for end in ends]
     label_ys = spread_labels(end_ys, y0 + 4, y1)
-    for (key, slot), end_y, label_y in zip(series, end_ys, label_ys):
+    for (label, _, slot), end, end_y, label_y in zip(series, ends, end_ys, label_ys):
         out.append(
             f'<circle cx="{end_x:.1f}" cy="{end_y:.1f}" r="4" fill="{t["series"][slot]}" '
-            f'stroke="{t["surface"]}" stroke-width="2"><title>{LABELS[key]}: {latest[key]:,}</title></circle>'
+            f'stroke="{t["surface"]}" stroke-width="2"><title>{label}: {end:,}</title></circle>'
         )
         if abs(label_y - end_y) > 1:
             out.append(
@@ -269,7 +278,7 @@ def render_chart(rows, chart, theme):
             )
         out.append(
             f'<text x="{end_x + 16:.1f}" y="{label_y + 4:.1f}" font-size="12" fill="{t["secondary"]}">'
-            f'<tspan font-weight="600" fill="{t["primary"]}">{latest[key]:,}</tspan> {LABELS[key]}</text>'
+            f'<tspan font-weight="600" fill="{t["primary"]}">{end:,}</tspan> {label}</text>'
         )
 
     out.append("</svg>")
@@ -287,8 +296,8 @@ def picture(name, alt):
 
 def render_readme(rows):
     latest = rows[-1]
-    installs = sum(latest[key] for key, _ in CHARTS["installs"]["series"])
-    updates = sum(latest[key] for key, _ in CHARTS["updates"]["series"])
+    installs = sum(latest[key] for key in INSTALL_KEYS)
+    updates = latest["updates_win"] + latest["updates_linux"]
     table = "\n".join(f"| {LABELS[key]} | {latest[key]:,} |" for key in COUNTS)
     return f"""# Kickerino download stats
 
@@ -316,6 +325,7 @@ As of {latest["date"]} (latest release: {latest["latest_tag"]}).
 
 - Totals include every release, not only the latest one.
 - Installs count `Kickerino-win-Setup.exe`, `Kickerino-win-Portable.zip` and `Kickerino.AppImage`.
+- Microsoft Store installs are not included.
 - Updates count the `.nupkg` packages downloaded by the auto-updater.
 - Update checks (`releases.*.json` and `RELEASES`) are not counted.
 - A row is added to [`downloads.csv`](downloads.csv) only when a total changes.
