@@ -1,0 +1,46 @@
+name: Download stats
+
+on:
+  schedule:
+    - cron: "0 6 * * *"
+  release:
+    types: [published]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: download-stats
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Check out stats branch
+        run: |
+          if git fetch --depth=1 origin stats; then
+            git worktree add stats FETCH_HEAD
+          else
+            git worktree add --orphan -b stats stats
+          fi
+
+      - name: Update stats
+        run: python3 scripts/download_stats.py stats
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+
+      - name: Publish stats
+        working-directory: stats
+        run: |
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes to publish."
+            exit 0
+          fi
+          git -c user.name="github-actions[bot]" \
+              -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
+              commit -m "Update download stats"
+          git -C .. push origin "$(git rev-parse HEAD):refs/heads/stats"
