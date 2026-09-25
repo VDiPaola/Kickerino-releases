@@ -1,17 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="760" height="340" viewBox="0 0 760 340" role="img" aria-labelledby="title desc" font-family="system-ui, -apple-system, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif">
 <title id="title">Installs</title>
-<desc id="desc">Cumulative installer downloads across all versions from 2026-09-01 to 2026-09-25. Total 78: Windows Setup 61, Windows Portable 13, Linux AppImage 4.</desc>
+<desc id="desc">Cumulative installer downloads across all versions and platforms from 2026-09-01 to 2026-09-25. Total 78: All platforms 78.</desc>
 <rect x="0.5" y="0.5" width="759" height="339" rx="8" fill="#1a1a19" stroke="rgba(255,255,255,0.10)"/>
 <text x="48" y="34" font-size="16" font-weight="600" fill="#ffffff">Installs: 78</text>
-<text x="48" y="56" font-size="13" fill="#c3c2b7">Cumulative installer downloads across all versions</text>
-<line x1="48" y1="76" x2="64" y2="76" stroke="#3987e5" stroke-width="2" stroke-linecap="round"/>
-<text x="70" y="80" font-size="12" fill="#c3c2b7">Windows Setup</text>
-<line x1="176.60000000000002" y1="76" x2="192.60000000000002" y2="76" stroke="#d95926" stroke-width="2" stroke-linecap="round"/>
-<text x="198.60000000000002" y="80" font-size="12" fill="#c3c2b7">Windows Portable</text>
-<line x1="323.8" y1="76" x2="339.8" y2="76" stroke="#199e70" stroke-width="2" stroke-linecap="round"/>
-<text x="345.8" y="80" font-size="12" fill="#c3c2b7">Linux AppImage</text>
-<line x1="458.6" y1="70" x2="458.6" y2="82" stroke="#898781"/>
-<text x="466.6" y="80" font-size="12" fill="#c3c2b7">Release</text>
+<text x="48" y="56" font-size="13" fill="#c3c2b7">Cumulative installer downloads across all versions and platforms</text>
+<line x1="48" y1="70" x2="48" y2="82" stroke="#898781"/>
+<text x="56" y="80" font-size="12" fill="#c3c2b7">Release</text>
 <line x1="48" y1="300.0" x2="610" y2="300.0" stroke="#383835"/>
 <text x="40" y="304.0" font-size="11" text-anchor="end" fill="#898781" style="font-variant-numeric: tabular-nums">0</text>
 <line x1="48" y1="249.0" x2="610" y2="249.0" stroke="#2c2c2a"/>
@@ -34,13 +28,7 @@
 <line x1="188.5" y1="302" x2="188.5" y2="308" stroke="#898781"><title>v1.1.6 (2026-09-07)</title></line>
 <line x1="399.2" y1="302" x2="399.2" y2="308" stroke="#898781"><title>v1.1.7 (2026-09-16)</title></line>
 <line x1="610.0" y1="302" x2="610.0" y2="308" stroke="#898781"><title>v1.1.9 (2026-09-25)</title></line>
-<polyline points="48.0,279.6 71.4,271.9 94.8,256.6 141.7,190.4 188.5,167.4 399.2,144.5 610.0,144.5" fill="none" stroke="#3987e5" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
-<polyline points="48.0,292.4 71.4,289.8 94.8,287.2 141.7,274.5 188.5,271.9 399.2,266.9 610.0,266.9" fill="none" stroke="#d95926" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
-<polyline points="48.0,297.4 71.4,297.4 94.8,297.4 141.7,297.4 188.5,294.9 399.2,289.8 610.0,289.8" fill="none" stroke="#199e70" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
-<circle cx="610.0" cy="144.5" r="4" fill="#3987e5" stroke="#1a1a19" stroke-width="2"><title>Windows Setup: 61</title></circle>
-<text x="626.0" y="148.5" font-size="12" fill="#c3c2b7"><tspan font-weight="600" fill="#ffffff">61</tspan> Windows Setup</text>
-<circle cx="610.0" cy="266.9" r="4" fill="#d95926" stroke="#1a1a19" stroke-width="2"><title>Windows Portable: 13</title></circle>
-<text x="626.0" y="270.9" font-size="12" fill="#c3c2b7"><tspan font-weight="600" fill="#ffffff">13</tspan> Windows Portable</text>
-<circle cx="610.0" cy="289.8" r="4" fill="#199e70" stroke="#1a1a19" stroke-width="2"><title>Linux AppImage: 4</title></circle>
-<text x="626.0" y="293.8" font-size="12" fill="#c3c2b7"><tspan font-weight="600" fill="#ffffff">4</tspan> Linux AppImage</text>
+<polyline points="48.0,269.4 71.4,259.2 94.8,241.3 141.7,162.3 188.5,134.2 399.2,101.1 610.0,101.1" fill="none" stroke="#3987e5" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="610.0" cy="101.1" r="4" fill="#3987e5" stroke="#1a1a19" stroke-width="2"><title>All platforms: 78</title></circle>
+<text x="626.0" y="105.1" font-size="12" fill="#c3c2b7"><tspan font-weight="600" fill="#ffffff">78</tspan> All platforms</text>
 </svg>

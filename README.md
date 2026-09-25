@@ -34,6 +34,7 @@ As of 2026-09-25 (latest release: v1.1.9).
 
 - Totals include every release, not only the latest one.
 - Installs count `Kickerino-win-Setup.exe`, `Kickerino-win-Portable.zip` and `Kickerino.AppImage`.
+- Microsoft Store installs are not included.
 - Updates count the `.nupkg` packages downloaded by the auto-updater.
 - Update checks (`releases.*.json` and `RELEASES`) are not counted.
 - A row is added to [`downloads.csv`](downloads.csv) only when a total changes.
