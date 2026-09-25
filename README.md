@@ -1,15 +1,31 @@
 # Kickerino download stats
 
-Cumulative downloads of Kickerino release files. A [GitHub Actions workflow](https://github.com/VDiPaola/Kickerino-releases/actions/workflows/download-stats.yml) updates this branch daily.
+Cumulative downloads of Kickerino release files and Microsoft Store installs. A [GitHub Actions workflow](https://github.com/VDiPaola/Kickerino-releases/actions/workflows/download-stats.yml) updates this branch daily.
 
 Back to the [main README](https://github.com/VDiPaola/Kickerino-releases).
 
-## Installs
+## Total installs
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/VDiPaola/Kickerino-releases/stats/total-dark.svg">
+  <img alt="Line chart of cumulative installs over time, including the Microsoft Store. Total: 173." src="https://raw.githubusercontent.com/VDiPaola/Kickerino-releases/stats/total-light.svg">
+</picture>
+
+## Installer downloads
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/VDiPaola/Kickerino-releases/stats/installs-dark.svg">
   <img alt="Line chart of cumulative installer downloads over time. Total: 78." src="https://raw.githubusercontent.com/VDiPaola/Kickerino-releases/stats/installs-light.svg">
 </picture>
+
+## Microsoft Store
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/VDiPaola/Kickerino-releases/stats/ms-store-dark.svg">
+  <img alt="Line chart of cumulative Microsoft Store installs over time. Total: 95." src="https://raw.githubusercontent.com/VDiPaola/Kickerino-releases/stats/ms-store-light.svg">
+</picture>
+
+95 installs as of 2026-09-19, the last day in the uploaded report.
 
 ## Updates
 
@@ -34,7 +50,9 @@ As of 2026-09-25 (latest release: v1.1.9).
 
 - Totals include every release, not only the latest one.
 - Installs count `Kickerino-win-Setup.exe`, `Kickerino-win-Portable.zip` and `Kickerino.AppImage`.
-- Microsoft Store installs are not included.
+- Microsoft Store installs come from the Partner Center installs report, uploaded manually as [`Apps-and-Games-Installs.csv`](Apps-and-Games-Installs.csv).
+- Each run merges that report into [`ms-store.csv`](ms-store.csv), so days older than the report's date range are kept.
+- Total installs include Microsoft Store installs up to the last day in the uploaded report.
 - Updates count the `.nupkg` packages downloaded by the auto-updater.
 - Update checks (`releases.*.json` and `RELEASES`) are not counted.
 - A row is added to [`downloads.csv`](downloads.csv) only when a total changes.

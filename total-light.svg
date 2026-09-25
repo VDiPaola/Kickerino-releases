@@ -1,21 +1,21 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="760" height="340" viewBox="0 0 760 340" role="img" aria-labelledby="title desc" font-family="system-ui, -apple-system, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif">
 <title id="title">Installs</title>
-<desc id="desc">Cumulative installer downloads across all versions and platforms from 2026-09-01 to 2026-09-25. Total 78: All platforms 78.</desc>
+<desc id="desc">Cumulative installer downloads and Microsoft Store installs from 2026-09-01 to 2026-09-25. Total 173: All platforms 173.</desc>
 <rect x="0.5" y="0.5" width="759" height="339" rx="8" fill="#fcfcfb" stroke="rgba(11,11,11,0.10)"/>
-<text x="48" y="34" font-size="16" font-weight="600" fill="#0b0b0b">Installs: 78</text>
-<text x="48" y="56" font-size="13" fill="#52514e">Cumulative installer downloads across all versions and platforms</text>
+<text x="48" y="34" font-size="16" font-weight="600" fill="#0b0b0b">Installs: 173</text>
+<text x="48" y="56" font-size="13" fill="#52514e">Cumulative installer downloads and Microsoft Store installs</text>
 <line x1="48" y1="70" x2="48" y2="82" stroke="#898781"/>
 <text x="56" y="80" font-size="12" fill="#52514e">Release</text>
 <line x1="48" y1="300.0" x2="610" y2="300.0" stroke="#c3c2b7"/>
 <text x="40" y="304.0" font-size="11" text-anchor="end" fill="#898781" style="font-variant-numeric: tabular-nums">0</text>
 <line x1="48" y1="249.0" x2="610" y2="249.0" stroke="#e1e0d9"/>
-<text x="40" y="253.0" font-size="11" text-anchor="end" fill="#898781" style="font-variant-numeric: tabular-nums">20</text>
+<text x="40" y="253.0" font-size="11" text-anchor="end" fill="#898781" style="font-variant-numeric: tabular-nums">50</text>
 <line x1="48" y1="198.0" x2="610" y2="198.0" stroke="#e1e0d9"/>
-<text x="40" y="202.0" font-size="11" text-anchor="end" fill="#898781" style="font-variant-numeric: tabular-nums">40</text>
+<text x="40" y="202.0" font-size="11" text-anchor="end" fill="#898781" style="font-variant-numeric: tabular-nums">100</text>
 <line x1="48" y1="147.0" x2="610" y2="147.0" stroke="#e1e0d9"/>
-<text x="40" y="151.0" font-size="11" text-anchor="end" fill="#898781" style="font-variant-numeric: tabular-nums">60</text>
+<text x="40" y="151.0" font-size="11" text-anchor="end" fill="#898781" style="font-variant-numeric: tabular-nums">150</text>
 <line x1="48" y1="96.0" x2="610" y2="96.0" stroke="#e1e0d9"/>
-<text x="40" y="100.0" font-size="11" text-anchor="end" fill="#898781" style="font-variant-numeric: tabular-nums">80</text>
+<text x="40" y="100.0" font-size="11" text-anchor="end" fill="#898781" style="font-variant-numeric: tabular-nums">200</text>
 <text x="48.0" y="324" font-size="11" text-anchor="start" fill="#898781">Sep 1</text>
 <text x="188.5" y="324" font-size="11" text-anchor="middle" fill="#898781">Sep 7</text>
 <text x="329.0" y="324" font-size="11" text-anchor="middle" fill="#898781">Sep 13</text>
@@ -28,7 +28,7 @@
 <line x1="188.5" y1="302" x2="188.5" y2="308" stroke="#898781"><title>v1.1.6 (2026-09-07)</title></line>
 <line x1="399.2" y1="302" x2="399.2" y2="308" stroke="#898781"><title>v1.1.7 (2026-09-16)</title></line>
 <line x1="610.0" y1="302" x2="610.0" y2="308" stroke="#898781"><title>v1.1.9 (2026-09-25)</title></line>
-<polyline points="48.0,269.4 71.4,259.2 94.8,241.3 141.7,162.3 188.5,134.2 399.2,101.1 610.0,101.1" fill="none" stroke="#2a78d6" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
-<circle cx="610.0" cy="101.1" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>All platforms: 78</title></circle>
-<text x="626.0" y="105.1" font-size="12" fill="#52514e"><tspan font-weight="600" fill="#0b0b0b">78</tspan> All platforms</text>
+<polyline points="48.0,287.8 71.4,283.7 94.8,276.5 118.2,276.5 141.7,238.8 165.1,230.6 188.5,216.4 211.9,213.3 235.3,210.2 258.8,205.1 282.2,194.9 305.6,179.6 329.0,176.6 352.4,174.5 375.8,163.3 399.2,146.0 422.7,138.8 446.1,129.7 469.5,123.5 610.0,123.5" fill="none" stroke="#2a78d6" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="610.0" cy="123.5" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>All platforms: 173</title></circle>
+<text x="626.0" y="127.5" font-size="12" fill="#52514e"><tspan font-weight="600" fill="#0b0b0b">173</tspan> All platforms</text>
 </svg>
