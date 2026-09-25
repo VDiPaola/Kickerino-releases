@@ -8,17 +8,17 @@ A fast, lightweight desktop chat client for [Kick](https://kick.com).
 
 **[Website](https://www.kickerino.com)** · **[Microsoft Store](https://apps.microsoft.com/detail/9ph17grbmq4k?hl=en-US&gl=GB&ocid=pdpshare)**
 
-## Installs
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/VDiPaola/Kickerino-releases/stats/installs-dark.svg">
-  <img alt="Line chart of cumulative Kickerino installer downloads over time for Windows Setup, Windows Portable and Linux AppImage" src="https://raw.githubusercontent.com/VDiPaola/Kickerino-releases/stats/installs-light.svg">
-</picture>
-
-See **[download stats](https://github.com/VDiPaola/Kickerino-releases/tree/stats)** for update downloads and the raw data.
-
 ## Releases
 
 This repository is used for **Kickerino releases**.
 
 See **[Releases](../../releases)** for the latest version and release notes.
+
+## Installs
+Cumulative downloads over time (not including ms store)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/VDiPaola/Kickerino-releases/stats/installs-dark.svg">
+  <img alt="Line chart of cumulative Kickerino installer downloads over time" src="https://raw.githubusercontent.com/VDiPaola/Kickerino-releases/stats/installs-light.svg">
+</picture>
+
+See **[download stats](https://github.com/VDiPaola/Kickerino-releases/tree/stats)** for update downloads and the raw data.
