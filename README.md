@@ -8,14 +8,14 @@ Back to the [main README](https://github.com/VDiPaola/Kickerino-releases).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/VDiPaola/Kickerino-releases/stats/total-dark.svg">
-  <img alt="Line chart of cumulative installs over time, including the Microsoft Store. Total: 180." src="https://raw.githubusercontent.com/VDiPaola/Kickerino-releases/stats/total-light.svg">
+  <img alt="Line chart of cumulative installs over time, including the Microsoft Store. Total: 181." src="https://raw.githubusercontent.com/VDiPaola/Kickerino-releases/stats/total-light.svg">
 </picture>
 
 ## Installer downloads
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/VDiPaola/Kickerino-releases/stats/installs-dark.svg">
-  <img alt="Line chart of cumulative installer downloads over time. Total: 85." src="https://raw.githubusercontent.com/VDiPaola/Kickerino-releases/stats/installs-light.svg">
+  <img alt="Line chart of cumulative installer downloads over time. Total: 86." src="https://raw.githubusercontent.com/VDiPaola/Kickerino-releases/stats/installs-light.svg">
 </picture>
 
 ## Microsoft Store
@@ -36,11 +36,11 @@ Back to the [main README](https://github.com/VDiPaola/Kickerino-releases).
 
 ## Current totals
 
-As of 2026-09-29 (latest release: v1.1.9).
+As of 2026-09-30 (latest release: v1.1.9).
 
 | Release file | Downloads |
 |---|---|
-| Windows Setup | 67 |
+| Windows Setup | 68 |
 | Windows Portable | 14 |
 | Linux AppImage | 4 |
 | Windows updates | 29 |
