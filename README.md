@@ -8,7 +8,7 @@ Back to the [main README](https://github.com/VDiPaola/Kickerino-releases).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/VDiPaola/Kickerino-releases/stats/total-dark.svg">
-  <img alt="Line chart of cumulative installs over time, including the Microsoft Store. Total: 274." src="https://raw.githubusercontent.com/VDiPaola/Kickerino-releases/stats/total-light.svg">
+  <img alt="Line chart of cumulative installs over time, including the Microsoft Store. Total: 305." src="https://raw.githubusercontent.com/VDiPaola/Kickerino-releases/stats/total-light.svg">
 </picture>
 
 ## Installer downloads
@@ -22,10 +22,10 @@ Back to the [main README](https://github.com/VDiPaola/Kickerino-releases).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/VDiPaola/Kickerino-releases/stats/ms-store-dark.svg">
-  <img alt="Line chart of cumulative Microsoft Store installs over time. Total: 145." src="https://raw.githubusercontent.com/VDiPaola/Kickerino-releases/stats/ms-store-light.svg">
+  <img alt="Line chart of cumulative Microsoft Store installs over time. Total: 176." src="https://raw.githubusercontent.com/VDiPaola/Kickerino-releases/stats/ms-store-light.svg">
 </picture>
 
-145 installs as of 2026-09-28, the last day in the uploaded report.
+176 installs as of 2026-10-03, the last day in the uploaded report.
 
 ## Updates
 
