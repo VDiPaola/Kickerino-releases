@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="760" height="340" viewBox="0 0 760 340" role="img" aria-labelledby="title desc" font-family="system-ui, -apple-system, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif">
 <title id="title">Installs</title>
-<desc id="desc">Cumulative installer downloads across all versions from 2026-09-01 to 2026-10-07. Total 146: Windows Setup 102, Windows Portable 30, Linux AppImage 14.</desc>
+<desc id="desc">Cumulative installer downloads across all versions from 2026-09-01 to 2026-10-07. Total 147: Windows Setup 103, Windows Portable 30, Linux AppImage 14.</desc>
 <rect x="0.5" y="0.5" width="759" height="339" rx="8" fill="#1a1a19" stroke="rgba(255,255,255,0.10)"/>
-<text x="48" y="34" font-size="16" font-weight="600" fill="#ffffff">Installs: 146</text>
+<text x="48" y="34" font-size="16" font-weight="600" fill="#ffffff">Installs: 147</text>
 <text x="48" y="56" font-size="13" fill="#c3c2b7">Cumulative installer downloads across all versions</text>
 <line x1="48" y1="76" x2="64" y2="76" stroke="#3987e5" stroke-width="2" stroke-linecap="round"/>
 <text x="70" y="80" font-size="12" fill="#c3c2b7">Windows Setup</text>
@@ -34,11 +34,12 @@
 <line x1="422.7" y1="302" x2="422.7" y2="308" stroke="#898781"><title>v1.1.9 (2026-09-25)</title></line>
 <line x1="516.3" y1="302" x2="516.3" y2="308" stroke="#898781"><title>v1.2.0 (2026-10-01)</title></line>
 <line x1="563.2" y1="302" x2="563.2" y2="308" stroke="#898781"><title>v1.2.1 (2026-10-04)</title></line>
-<polyline points="48.0,289.1 63.6,285.0 79.2,276.9 110.4,241.5 141.7,229.3 282.2,217.0 422.7,217.0 438.3,215.7 453.9,214.3 469.5,211.6 485.1,208.9 500.7,207.5 516.3,202.1 531.9,188.5 547.6,185.8 563.2,179.0 594.4,164.0 610.0,161.3" fill="none" stroke="#3987e5" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="610.0" y1="302" x2="610.0" y2="308" stroke="#898781"><title>v1.2.2 (2026-10-07)</title></line>
+<polyline points="48.0,289.1 63.6,285.0 79.2,276.9 110.4,241.5 141.7,229.3 282.2,217.0 422.7,217.0 438.3,215.7 453.9,214.3 469.5,211.6 485.1,208.9 500.7,207.5 516.3,202.1 531.9,188.5 547.6,185.8 563.2,179.0 594.4,164.0 610.0,159.9" fill="none" stroke="#3987e5" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
 <polyline points="48.0,295.9 63.6,294.6 79.2,293.2 110.4,286.4 141.7,285.0 282.2,282.3 422.7,282.3 438.3,282.3 453.9,282.3 469.5,281.0 485.1,281.0 500.7,281.0 516.3,278.2 531.9,272.8 547.6,270.1 563.2,263.3 594.4,260.6 610.0,259.2" fill="none" stroke="#d95926" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
 <polyline points="48.0,298.6 63.6,298.6 79.2,298.6 110.4,298.6 141.7,297.3 282.2,294.6 422.7,294.6 438.3,294.6 453.9,294.6 469.5,294.6 485.1,294.6 500.7,294.6 516.3,293.2 531.9,291.8 547.6,291.8 563.2,282.3 594.4,281.0 610.0,281.0" fill="none" stroke="#199e70" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
-<circle cx="610.0" cy="161.3" r="4" fill="#3987e5" stroke="#1a1a19" stroke-width="2"><title>Windows Setup: 102</title></circle>
-<text x="626.0" y="165.3" font-size="12" fill="#c3c2b7"><tspan font-weight="600" fill="#ffffff">102</tspan> Windows Setup</text>
+<circle cx="610.0" cy="159.9" r="4" fill="#3987e5" stroke="#1a1a19" stroke-width="2"><title>Windows Setup: 103</title></circle>
+<text x="626.0" y="163.9" font-size="12" fill="#c3c2b7"><tspan font-weight="600" fill="#ffffff">103</tspan> Windows Setup</text>
 <circle cx="610.0" cy="259.2" r="4" fill="#d95926" stroke="#1a1a19" stroke-width="2"><title>Windows Portable: 30</title></circle>
 <text x="626.0" y="263.2" font-size="12" fill="#c3c2b7"><tspan font-weight="600" fill="#ffffff">30</tspan> Windows Portable</text>
 <circle cx="610.0" cy="281.0" r="4" fill="#199e70" stroke="#1a1a19" stroke-width="2"><title>Linux AppImage: 14</title></circle>
