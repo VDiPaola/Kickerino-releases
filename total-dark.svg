@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="760" height="340" viewBox="0 0 760 340" role="img" aria-labelledby="title desc" font-family="system-ui, -apple-system, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif">
 <title id="title">Installs</title>
-<desc id="desc">Cumulative installer downloads and Microsoft Store installs from 2026-09-01 to 2026-10-07. Total 323: All platforms 323.</desc>
+<desc id="desc">Cumulative installer downloads and Microsoft Store installs from 2026-09-01 to 2026-10-08. Total 325: All platforms 325.</desc>
 <rect x="0.5" y="0.5" width="759" height="339" rx="8" fill="#1a1a19" stroke="rgba(255,255,255,0.10)"/>
-<text x="48" y="34" font-size="16" font-weight="600" fill="#ffffff">Installs: 323</text>
+<text x="48" y="34" font-size="16" font-weight="600" fill="#ffffff">Installs: 325</text>
 <text x="48" y="56" font-size="13" fill="#c3c2b7">Cumulative installer downloads and Microsoft Store installs</text>
 <line x1="48" y1="70" x2="48" y2="82" stroke="#898781"/>
 <text x="56" y="80" font-size="12" fill="#c3c2b7">Release</text>
@@ -17,21 +17,21 @@
 <line x1="48" y1="96.0" x2="610" y2="96.0" stroke="#2c2c2a"/>
 <text x="40" y="100.0" font-size="11" text-anchor="end" fill="#898781" style="font-variant-numeric: tabular-nums">400</text>
 <text x="48.0" y="324" font-size="11" text-anchor="start" fill="#898781">Sep 1</text>
-<text x="188.5" y="324" font-size="11" text-anchor="middle" fill="#898781">Sep 10</text>
-<text x="329.0" y="324" font-size="11" text-anchor="middle" fill="#898781">Sep 19</text>
-<text x="469.5" y="324" font-size="11" text-anchor="middle" fill="#898781">Sep 28</text>
-<text x="610.0" y="324" font-size="11" text-anchor="end" fill="#898781">Oct 7</text>
+<text x="184.7" y="324" font-size="11" text-anchor="middle" fill="#898781">Sep 10</text>
+<text x="321.4" y="324" font-size="11" text-anchor="middle" fill="#898781">Sep 19</text>
+<text x="473.3" y="324" font-size="11" text-anchor="middle" fill="#898781">Sep 29</text>
+<text x="610.0" y="324" font-size="11" text-anchor="end" fill="#898781">Oct 8</text>
 <line x1="48.0" y1="302" x2="48.0" y2="308" stroke="#898781"><title>v1.0.6 (2026-09-01)</title></line>
-<line x1="63.6" y1="302" x2="63.6" y2="308" stroke="#898781"><title>v1.0.9 (2026-09-02)</title></line>
-<line x1="79.2" y1="302" x2="79.2" y2="308" stroke="#898781"><title>v1.1.2 (2026-09-03)</title></line>
-<line x1="110.4" y1="302" x2="110.4" y2="308" stroke="#898781"><title>v1.1.3 (2026-09-05)</title></line>
-<line x1="141.7" y1="302" x2="141.7" y2="308" stroke="#898781"><title>v1.1.6 (2026-09-07)</title></line>
-<line x1="282.2" y1="302" x2="282.2" y2="308" stroke="#898781"><title>v1.1.7 (2026-09-16)</title></line>
-<line x1="422.7" y1="302" x2="422.7" y2="308" stroke="#898781"><title>v1.1.9 (2026-09-25)</title></line>
-<line x1="516.3" y1="302" x2="516.3" y2="308" stroke="#898781"><title>v1.2.0 (2026-10-01)</title></line>
-<line x1="563.2" y1="302" x2="563.2" y2="308" stroke="#898781"><title>v1.2.1 (2026-10-04)</title></line>
-<line x1="610.0" y1="302" x2="610.0" y2="308" stroke="#898781"><title>v1.2.2 (2026-10-07)</title></line>
-<polyline points="48.0,293.9 63.6,291.8 79.2,288.3 94.8,288.3 110.4,269.4 126.1,265.3 141.7,258.2 157.3,256.6 172.9,255.1 188.5,252.6 204.1,247.5 219.7,239.8 235.3,238.3 250.9,237.3 266.6,231.7 282.2,222.5 297.8,218.4 313.4,212.8 329.0,207.7 344.6,205.1 360.2,202.6 375.8,200.6 391.4,197.5 407.1,194.4 422.7,193.9 438.3,191.4 453.9,188.3 469.5,182.2 485.1,178.1 500.7,175.1 516.3,167.9 531.9,157.7 547.6,153.1 563.2,144.5 594.4,137.3 610.0,135.3" fill="none" stroke="#3987e5" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
-<circle cx="610.0" cy="135.3" r="4" fill="#3987e5" stroke="#1a1a19" stroke-width="2"><title>All platforms: 323</title></circle>
-<text x="626.0" y="139.3" font-size="12" fill="#c3c2b7"><tspan font-weight="600" fill="#ffffff">323</tspan> All platforms</text>
+<line x1="63.2" y1="302" x2="63.2" y2="308" stroke="#898781"><title>v1.0.9 (2026-09-02)</title></line>
+<line x1="78.4" y1="302" x2="78.4" y2="308" stroke="#898781"><title>v1.1.2 (2026-09-03)</title></line>
+<line x1="108.8" y1="302" x2="108.8" y2="308" stroke="#898781"><title>v1.1.3 (2026-09-05)</title></line>
+<line x1="139.1" y1="302" x2="139.1" y2="308" stroke="#898781"><title>v1.1.6 (2026-09-07)</title></line>
+<line x1="275.8" y1="302" x2="275.8" y2="308" stroke="#898781"><title>v1.1.7 (2026-09-16)</title></line>
+<line x1="412.5" y1="302" x2="412.5" y2="308" stroke="#898781"><title>v1.1.9 (2026-09-25)</title></line>
+<line x1="503.7" y1="302" x2="503.7" y2="308" stroke="#898781"><title>v1.2.0 (2026-10-01)</title></line>
+<line x1="549.2" y1="302" x2="549.2" y2="308" stroke="#898781"><title>v1.2.1 (2026-10-04)</title></line>
+<line x1="594.8" y1="302" x2="594.8" y2="308" stroke="#898781"><title>v1.2.2 (2026-10-07)</title></line>
+<polyline points="48.0,293.9 63.2,291.8 78.4,288.3 93.6,288.3 108.8,269.4 123.9,265.3 139.1,258.2 154.3,256.6 169.5,255.1 184.7,252.6 199.9,247.5 215.1,239.8 230.3,238.3 245.5,237.3 260.6,231.7 275.8,222.5 291.0,218.4 306.2,212.8 321.4,207.7 336.6,205.1 351.8,202.6 367.0,200.6 382.2,197.5 397.4,194.4 412.5,193.9 427.7,191.4 442.9,188.3 458.1,182.2 473.3,178.1 488.5,175.1 503.7,167.9 518.9,157.7 534.1,153.1 549.2,144.5 579.6,137.3 594.8,135.3 610.0,134.2" fill="none" stroke="#3987e5" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="610.0" cy="134.2" r="4" fill="#3987e5" stroke="#1a1a19" stroke-width="2"><title>All platforms: 325</title></circle>
+<text x="626.0" y="138.2" font-size="12" fill="#c3c2b7"><tspan font-weight="600" fill="#ffffff">325</tspan> All platforms</text>
 </svg>
