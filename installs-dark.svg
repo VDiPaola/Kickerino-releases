@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="760" height="340" viewBox="0 0 760 340" role="img" aria-labelledby="title desc" font-family="system-ui, -apple-system, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif">
 <title id="title">Installs</title>
-<desc id="desc">Cumulative installer downloads across all versions from 2026-09-01 to 2026-10-13. Total 164: Windows Setup 116, Windows Portable 32, Linux AppImage 16.</desc>
+<desc id="desc">Cumulative installer downloads across all versions from 2026-09-01 to 2026-10-13. Total 165: Windows Setup 117, Windows Portable 32, Linux AppImage 16.</desc>
 <rect x="0.5" y="0.5" width="759" height="339" rx="8" fill="#1a1a19" stroke="rgba(255,255,255,0.10)"/>
-<text x="48" y="34" font-size="16" font-weight="600" fill="#ffffff">Installs: 164</text>
+<text x="48" y="34" font-size="16" font-weight="600" fill="#ffffff">Installs: 165</text>
 <text x="48" y="56" font-size="13" fill="#c3c2b7">Cumulative installer downloads across all versions</text>
 <line x1="48" y1="76" x2="64" y2="76" stroke="#3987e5" stroke-width="2" stroke-linecap="round"/>
 <text x="70" y="80" font-size="12" fill="#c3c2b7">Windows Setup</text>
@@ -35,11 +35,12 @@
 <line x1="449.4" y1="302" x2="449.4" y2="308" stroke="#898781"><title>v1.2.0 (2026-10-01)</title></line>
 <line x1="489.6" y1="302" x2="489.6" y2="308" stroke="#898781"><title>v1.2.1 (2026-10-04)</title></line>
 <line x1="529.7" y1="302" x2="529.7" y2="308" stroke="#898781"><title>v1.2.2 (2026-10-07)</title></line>
-<polyline points="48.0,289.1 61.4,285.0 74.8,276.9 101.5,241.5 128.3,229.3 248.7,217.0 369.1,217.0 382.5,215.7 395.9,214.3 409.3,211.6 422.7,208.9 436.0,207.5 449.4,202.1 462.8,188.5 476.2,185.8 489.6,179.0 516.3,164.0 529.7,159.9 543.1,157.2 556.5,154.5 569.9,153.1 583.2,151.8 596.6,149.0 610.0,142.2" fill="none" stroke="#3987e5" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="610.0" y1="302" x2="610.0" y2="308" stroke="#898781"><title>v1.2.3 (2026-10-13)</title></line>
+<polyline points="48.0,289.1 61.4,285.0 74.8,276.9 101.5,241.5 128.3,229.3 248.7,217.0 369.1,217.0 382.5,215.7 395.9,214.3 409.3,211.6 422.7,208.9 436.0,207.5 449.4,202.1 462.8,188.5 476.2,185.8 489.6,179.0 516.3,164.0 529.7,159.9 543.1,157.2 556.5,154.5 569.9,153.1 583.2,151.8 596.6,149.0 610.0,140.9" fill="none" stroke="#3987e5" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
 <polyline points="48.0,295.9 61.4,294.6 74.8,293.2 101.5,286.4 128.3,285.0 248.7,282.3 369.1,282.3 382.5,282.3 395.9,282.3 409.3,281.0 422.7,281.0 436.0,281.0 449.4,278.2 462.8,272.8 476.2,270.1 489.6,263.3 516.3,260.6 529.7,259.2 543.1,259.2 556.5,259.2 569.9,259.2 583.2,259.2 596.6,257.8 610.0,256.5" fill="none" stroke="#d95926" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
 <polyline points="48.0,298.6 61.4,298.6 74.8,298.6 101.5,298.6 128.3,297.3 248.7,294.6 369.1,294.6 382.5,294.6 395.9,294.6 409.3,294.6 422.7,294.6 436.0,294.6 449.4,293.2 462.8,291.8 476.2,291.8 489.6,282.3 516.3,281.0 529.7,281.0 543.1,281.0 556.5,281.0 569.9,281.0 583.2,279.6 596.6,278.2 610.0,278.2" fill="none" stroke="#199e70" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
-<circle cx="610.0" cy="142.2" r="4" fill="#3987e5" stroke="#1a1a19" stroke-width="2"><title>Windows Setup: 116</title></circle>
-<text x="626.0" y="146.2" font-size="12" fill="#c3c2b7"><tspan font-weight="600" fill="#ffffff">116</tspan> Windows Setup</text>
+<circle cx="610.0" cy="140.9" r="4" fill="#3987e5" stroke="#1a1a19" stroke-width="2"><title>Windows Setup: 117</title></circle>
+<text x="626.0" y="144.9" font-size="12" fill="#c3c2b7"><tspan font-weight="600" fill="#ffffff">117</tspan> Windows Setup</text>
 <circle cx="610.0" cy="256.5" r="4" fill="#d95926" stroke="#1a1a19" stroke-width="2"><title>Windows Portable: 32</title></circle>
 <text x="626.0" y="260.5" font-size="12" fill="#c3c2b7"><tspan font-weight="600" fill="#ffffff">32</tspan> Windows Portable</text>
 <circle cx="610.0" cy="278.2" r="4" fill="#199e70" stroke="#1a1a19" stroke-width="2"><title>Linux AppImage: 16</title></circle>
