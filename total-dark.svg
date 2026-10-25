@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="760" height="340" viewBox="0 0 760 340" role="img" aria-labelledby="title desc" font-family="system-ui, -apple-system, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif">
 <title id="title">Installs</title>
-<desc id="desc">Cumulative installer downloads and Microsoft Store installs from 2026-09-01 to 2026-10-24. Total 496: All platforms 496.</desc>
+<desc id="desc">Cumulative installer downloads and Microsoft Store installs from 2026-09-01 to 2026-10-24. Total 560: All platforms 560.</desc>
 <rect x="0.5" y="0.5" width="759" height="339" rx="8" fill="#1a1a19" stroke="rgba(255,255,255,0.10)"/>
-<text x="48" y="34" font-size="16" font-weight="600" fill="#ffffff">Installs: 496</text>
+<text x="48" y="34" font-size="16" font-weight="600" fill="#ffffff">Installs: 560</text>
 <text x="48" y="56" font-size="13" fill="#c3c2b7">Cumulative installer downloads and Microsoft Store installs</text>
 <line x1="48" y1="70" x2="48" y2="82" stroke="#898781"/>
 <text x="56" y="80" font-size="12" fill="#c3c2b7">Release</text>
@@ -32,7 +32,7 @@
 <line x1="493.4" y1="302" x2="493.4" y2="308" stroke="#898781"><title>v1.2.3 (2026-10-13)</title></line>
 <line x1="504.0" y1="302" x2="504.0" y2="308" stroke="#898781"><title>v1.2.4 (2026-10-14)</title></line>
 <line x1="514.6" y1="302" x2="514.6" y2="308" stroke="#898781"><title>v1.2.6 (2026-10-15)</title></line>
-<polyline points="48.0,295.9 58.6,294.6 69.2,292.2 79.8,292.2 90.4,279.6 101.0,276.9 111.6,272.1 122.2,271.1 132.8,270.1 143.4,268.4 154.0,265.0 164.6,259.9 175.2,258.9 185.8,258.2 196.5,254.4 207.1,248.3 217.7,245.6 228.3,241.9 238.9,238.5 249.5,236.8 260.1,235.1 270.7,233.7 281.3,231.7 291.9,229.6 302.5,229.3 313.1,227.6 323.7,225.5 334.3,221.5 344.9,218.7 355.5,216.7 366.1,211.6 376.7,204.8 387.3,201.4 397.9,194.9 408.5,191.2 419.1,184.1 429.7,180.3 440.3,177.3 450.9,173.2 461.5,169.8 472.2,166.7 482.8,162.0 493.4,155.2 504.0,150.4 514.6,142.6 525.2,139.5 535.8,138.2 546.4,137.8 557.0,135.4 567.6,134.1 578.2,134.1 588.8,133.1 599.4,132.0 610.0,131.4" fill="none" stroke="#3987e5" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
-<circle cx="610.0" cy="131.4" r="4" fill="#3987e5" stroke="#1a1a19" stroke-width="2"><title>All platforms: 496</title></circle>
-<text x="626.0" y="135.4" font-size="12" fill="#c3c2b7"><tspan font-weight="600" fill="#ffffff">496</tspan> All platforms</text>
+<polyline points="48.0,295.9 58.6,294.6 69.2,292.2 79.8,292.2 90.4,279.6 101.0,276.9 111.6,272.1 122.2,271.1 132.8,270.1 143.4,268.4 154.0,265.0 164.6,259.9 175.2,258.9 185.8,258.2 196.5,254.4 207.1,248.3 217.7,245.6 228.3,241.9 238.9,238.5 249.5,236.8 260.1,235.1 270.7,233.7 281.3,231.7 291.9,229.6 302.5,229.3 313.1,227.6 323.7,225.5 334.3,221.5 344.9,218.7 355.5,216.7 366.1,211.6 376.7,204.8 387.3,201.4 397.9,194.9 408.5,191.2 419.1,183.7 429.7,180.0 440.3,176.9 450.9,172.8 461.5,169.4 472.2,166.4 482.8,161.6 493.4,154.8 504.0,149.7 514.6,141.2 525.2,137.1 535.8,132.0 546.4,126.3 557.0,121.2 567.6,115.7 578.2,112.3 588.8,111.3 599.4,110.3 610.0,109.6" fill="none" stroke="#3987e5" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="610.0" cy="109.6" r="4" fill="#3987e5" stroke="#1a1a19" stroke-width="2"><title>All platforms: 560</title></circle>
+<text x="626.0" y="113.6" font-size="12" fill="#c3c2b7"><tspan font-weight="600" fill="#ffffff">560</tspan> All platforms</text>
 </svg>
