@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="760" height="340" viewBox="0 0 760 340" role="img" aria-labelledby="title desc" font-family="system-ui, -apple-system, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif">
 <title id="title">Installs</title>
-<desc id="desc">Cumulative installer downloads across all versions from 2026-09-01 to 2026-10-24. Total 197: Windows Setup 137, Windows Portable 38, Linux AppImage 22.</desc>
+<desc id="desc">Cumulative installer downloads across all versions from 2026-09-01 to 2026-10-26. Total 200: Windows Setup 140, Windows Portable 38, Linux AppImage 22.</desc>
 <rect x="0.5" y="0.5" width="759" height="339" rx="8" fill="#1a1a19" stroke="rgba(255,255,255,0.10)"/>
-<text x="48" y="34" font-size="16" font-weight="600" fill="#ffffff">Installs: 197</text>
+<text x="48" y="34" font-size="16" font-weight="600" fill="#ffffff">Installs: 200</text>
 <text x="48" y="56" font-size="13" fill="#c3c2b7">Cumulative installer downloads across all versions</text>
 <line x1="48" y1="76" x2="64" y2="76" stroke="#3987e5" stroke-width="2" stroke-linecap="round"/>
 <text x="70" y="80" font-size="12" fill="#c3c2b7">Windows Setup</text>
@@ -21,28 +21,28 @@
 <line x1="48" y1="96.0" x2="610" y2="96.0" stroke="#2c2c2a"/>
 <text x="40" y="100.0" font-size="11" text-anchor="end" fill="#898781" style="font-variant-numeric: tabular-nums">150</text>
 <text x="48.0" y="324" font-size="11" text-anchor="start" fill="#898781">Sep 1</text>
-<text x="185.8" y="324" font-size="11" text-anchor="middle" fill="#898781">Sep 14</text>
-<text x="323.7" y="324" font-size="11" text-anchor="middle" fill="#898781">Sep 27</text>
-<text x="472.2" y="324" font-size="11" text-anchor="middle" fill="#898781">Oct 11</text>
-<text x="610.0" y="324" font-size="11" text-anchor="end" fill="#898781">Oct 24</text>
+<text x="191.1" y="324" font-size="11" text-anchor="middle" fill="#898781">Sep 15</text>
+<text x="334.1" y="324" font-size="11" text-anchor="middle" fill="#898781">Sep 29</text>
+<text x="466.9" y="324" font-size="11" text-anchor="middle" fill="#898781">Oct 12</text>
+<text x="610.0" y="324" font-size="11" text-anchor="end" fill="#898781">Oct 26</text>
 <line x1="48.0" y1="302" x2="48.0" y2="308" stroke="#898781"><title>v1.0.6 (2026-09-01)</title></line>
-<line x1="58.6" y1="302" x2="58.6" y2="308" stroke="#898781"><title>v1.0.9 (2026-09-02)</title></line>
-<line x1="69.2" y1="302" x2="69.2" y2="308" stroke="#898781"><title>v1.1.2 (2026-09-03)</title></line>
-<line x1="90.4" y1="302" x2="90.4" y2="308" stroke="#898781"><title>v1.1.3 (2026-09-05)</title></line>
-<line x1="111.6" y1="302" x2="111.6" y2="308" stroke="#898781"><title>v1.1.6 (2026-09-07)</title></line>
-<line x1="207.1" y1="302" x2="207.1" y2="308" stroke="#898781"><title>v1.1.7 (2026-09-16)</title></line>
-<line x1="302.5" y1="302" x2="302.5" y2="308" stroke="#898781"><title>v1.1.9 (2026-09-25)</title></line>
-<line x1="366.1" y1="302" x2="366.1" y2="308" stroke="#898781"><title>v1.2.0 (2026-10-01)</title></line>
-<line x1="397.9" y1="302" x2="397.9" y2="308" stroke="#898781"><title>v1.2.1 (2026-10-04)</title></line>
-<line x1="429.7" y1="302" x2="429.7" y2="308" stroke="#898781"><title>v1.2.2 (2026-10-07)</title></line>
-<line x1="493.4" y1="302" x2="493.4" y2="308" stroke="#898781"><title>v1.2.3 (2026-10-13)</title></line>
-<line x1="504.0" y1="302" x2="504.0" y2="308" stroke="#898781"><title>v1.2.4 (2026-10-14)</title></line>
-<line x1="514.6" y1="302" x2="514.6" y2="308" stroke="#898781"><title>v1.2.6 (2026-10-15)</title></line>
-<polyline points="48.0,289.1 58.6,285.0 69.2,276.9 90.4,241.5 111.6,229.3 207.1,217.0 302.5,217.0 313.1,215.7 323.7,214.3 334.3,211.6 344.9,208.9 355.5,207.5 366.1,202.1 376.7,188.5 387.3,185.8 397.9,179.0 419.1,164.0 429.7,159.9 440.3,157.2 450.9,154.5 461.5,153.1 472.2,151.8 482.8,149.0 493.4,140.9 504.0,139.5 514.6,135.4 525.2,134.1 535.8,131.4 546.4,131.4 557.0,127.3 567.6,123.2 578.2,123.2 588.8,120.5 599.4,116.4 610.0,113.7" fill="none" stroke="#3987e5" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
-<polyline points="48.0,295.9 58.6,294.6 69.2,293.2 90.4,286.4 111.6,285.0 207.1,282.3 302.5,282.3 313.1,282.3 323.7,282.3 334.3,281.0 344.9,281.0 355.5,281.0 366.1,278.2 376.7,272.8 387.3,270.1 397.9,263.3 419.1,260.6 429.7,259.2 440.3,259.2 450.9,259.2 461.5,259.2 472.2,259.2 482.8,257.8 493.4,256.5 504.0,255.1 514.6,255.1 525.2,253.8 535.8,253.8 546.4,253.8 557.0,251.0 567.6,249.7 578.2,249.7 588.8,248.3 599.4,248.3 610.0,248.3" fill="none" stroke="#d95926" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
-<polyline points="48.0,298.6 58.6,298.6 69.2,298.6 90.4,298.6 111.6,297.3 207.1,294.6 302.5,294.6 313.1,294.6 323.7,294.6 334.3,294.6 344.9,294.6 355.5,294.6 366.1,293.2 376.7,291.8 387.3,291.8 397.9,282.3 419.1,281.0 429.7,281.0 440.3,281.0 450.9,281.0 461.5,281.0 472.2,279.6 482.8,278.2 493.4,278.2 504.0,278.2 514.6,276.9 525.2,276.9 535.8,274.2 546.4,272.8 557.0,270.1 567.6,270.1 578.2,270.1 588.8,270.1 599.4,270.1 610.0,270.1" fill="none" stroke="#199e70" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
-<circle cx="610.0" cy="113.7" r="4" fill="#3987e5" stroke="#1a1a19" stroke-width="2"><title>Windows Setup: 137</title></circle>
-<text x="626.0" y="117.7" font-size="12" fill="#c3c2b7"><tspan font-weight="600" fill="#ffffff">137</tspan> Windows Setup</text>
+<line x1="58.2" y1="302" x2="58.2" y2="308" stroke="#898781"><title>v1.0.9 (2026-09-02)</title></line>
+<line x1="68.4" y1="302" x2="68.4" y2="308" stroke="#898781"><title>v1.1.2 (2026-09-03)</title></line>
+<line x1="88.9" y1="302" x2="88.9" y2="308" stroke="#898781"><title>v1.1.3 (2026-09-05)</title></line>
+<line x1="109.3" y1="302" x2="109.3" y2="308" stroke="#898781"><title>v1.1.6 (2026-09-07)</title></line>
+<line x1="201.3" y1="302" x2="201.3" y2="308" stroke="#898781"><title>v1.1.7 (2026-09-16)</title></line>
+<line x1="293.2" y1="302" x2="293.2" y2="308" stroke="#898781"><title>v1.1.9 (2026-09-25)</title></line>
+<line x1="354.5" y1="302" x2="354.5" y2="308" stroke="#898781"><title>v1.2.0 (2026-10-01)</title></line>
+<line x1="385.2" y1="302" x2="385.2" y2="308" stroke="#898781"><title>v1.2.1 (2026-10-04)</title></line>
+<line x1="415.9" y1="302" x2="415.9" y2="308" stroke="#898781"><title>v1.2.2 (2026-10-07)</title></line>
+<line x1="477.2" y1="302" x2="477.2" y2="308" stroke="#898781"><title>v1.2.3 (2026-10-13)</title></line>
+<line x1="487.4" y1="302" x2="487.4" y2="308" stroke="#898781"><title>v1.2.4 (2026-10-14)</title></line>
+<line x1="497.6" y1="302" x2="497.6" y2="308" stroke="#898781"><title>v1.2.6 (2026-10-15)</title></line>
+<polyline points="48.0,289.1 58.2,285.0 68.4,276.9 88.9,241.5 109.3,229.3 201.3,217.0 293.2,217.0 303.5,215.7 313.7,214.3 323.9,211.6 334.1,208.9 344.3,207.5 354.5,202.1 364.8,188.5 375.0,185.8 385.2,179.0 405.6,164.0 415.9,159.9 426.1,157.2 436.3,154.5 446.5,153.1 456.7,151.8 466.9,149.0 477.2,140.9 487.4,139.5 497.6,135.4 507.8,134.1 518.0,131.4 528.3,131.4 538.5,127.3 548.7,123.2 558.9,123.2 569.1,120.5 579.3,116.4 589.6,113.7 610.0,109.6" fill="none" stroke="#3987e5" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="48.0,295.9 58.2,294.6 68.4,293.2 88.9,286.4 109.3,285.0 201.3,282.3 293.2,282.3 303.5,282.3 313.7,282.3 323.9,281.0 334.1,281.0 344.3,281.0 354.5,278.2 364.8,272.8 375.0,270.1 385.2,263.3 405.6,260.6 415.9,259.2 426.1,259.2 436.3,259.2 446.5,259.2 456.7,259.2 466.9,257.8 477.2,256.5 487.4,255.1 497.6,255.1 507.8,253.8 518.0,253.8 528.3,253.8 538.5,251.0 548.7,249.7 558.9,249.7 569.1,248.3 579.3,248.3 589.6,248.3 610.0,248.3" fill="none" stroke="#d95926" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="48.0,298.6 58.2,298.6 68.4,298.6 88.9,298.6 109.3,297.3 201.3,294.6 293.2,294.6 303.5,294.6 313.7,294.6 323.9,294.6 334.1,294.6 344.3,294.6 354.5,293.2 364.8,291.8 375.0,291.8 385.2,282.3 405.6,281.0 415.9,281.0 426.1,281.0 436.3,281.0 446.5,281.0 456.7,279.6 466.9,278.2 477.2,278.2 487.4,278.2 497.6,276.9 507.8,276.9 518.0,274.2 528.3,272.8 538.5,270.1 548.7,270.1 558.9,270.1 569.1,270.1 579.3,270.1 589.6,270.1 610.0,270.1" fill="none" stroke="#199e70" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="610.0" cy="109.6" r="4" fill="#3987e5" stroke="#1a1a19" stroke-width="2"><title>Windows Setup: 140</title></circle>
+<text x="626.0" y="113.6" font-size="12" fill="#c3c2b7"><tspan font-weight="600" fill="#ffffff">140</tspan> Windows Setup</text>
 <circle cx="610.0" cy="248.3" r="4" fill="#d95926" stroke="#1a1a19" stroke-width="2"><title>Windows Portable: 38</title></circle>
 <text x="626.0" y="252.3" font-size="12" fill="#c3c2b7"><tspan font-weight="600" fill="#ffffff">38</tspan> Windows Portable</text>
 <circle cx="610.0" cy="270.1" r="4" fill="#199e70" stroke="#1a1a19" stroke-width="2"><title>Linux AppImage: 22</title></circle>
