@@ -31,19 +31,19 @@ Back to the [main README](https://github.com/VDiPaola/Kickerino-releases).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/VDiPaola/Kickerino-releases/stats/updates-dark.svg">
-  <img alt="Line chart of cumulative update package downloads over time. Total: 66." src="https://raw.githubusercontent.com/VDiPaola/Kickerino-releases/stats/updates-light.svg">
+  <img alt="Line chart of cumulative update package downloads over time. Total: 69." src="https://raw.githubusercontent.com/VDiPaola/Kickerino-releases/stats/updates-light.svg">
 </picture>
 
 ## Current totals
 
-As of 2026-10-27 (latest release: v1.2.6).
+As of 2026-10-28 (latest release: v1.2.6).
 
 | Release file | Downloads |
 |---|---|
 | Windows Setup | 143 |
 | Windows Portable | 41 |
 | Linux AppImage | 22 |
-| Windows updates | 66 |
+| Windows updates | 69 |
 | Linux updates | 0 |
 
 ## How the data is collected
