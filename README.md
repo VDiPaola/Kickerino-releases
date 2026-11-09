@@ -36,7 +36,7 @@ Back to the [main README](https://github.com/VDiPaola/Kickerino-releases).
 
 ## Current totals
 
-As of 2026-11-09 (latest release: v1.2.8).
+As of 2026-11-09 (latest release: v1.3.0).
 
 | Release file | Downloads |
 |---|---|
