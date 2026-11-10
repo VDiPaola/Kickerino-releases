@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="760" height="340" viewBox="0 0 760 340" role="img" aria-labelledby="title desc" font-family="system-ui, -apple-system, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif">
 <title id="title">Updates</title>
-<desc id="desc">Cumulative update package downloads across all versions from 2026-09-01 to 2026-11-10. Total 151: Windows updates 124, Linux updates 27.</desc>
+<desc id="desc">Cumulative update package downloads across all versions from 2026-09-01 to 2026-11-10. Total 155: Windows updates 126, Linux updates 29.</desc>
 <rect x="0.5" y="0.5" width="759" height="339" rx="8" fill="#fcfcfb" stroke="rgba(11,11,11,0.10)"/>
-<text x="48" y="34" font-size="16" font-weight="600" fill="#0b0b0b">Updates: 151</text>
+<text x="48" y="34" font-size="16" font-weight="600" fill="#0b0b0b">Updates: 155</text>
 <text x="48" y="56" font-size="13" fill="#52514e">Cumulative update package downloads across all versions</text>
 <line x1="48" y1="76" x2="64" y2="76" stroke="#2a78d6" stroke-width="2" stroke-linecap="round"/>
 <text x="70" y="80" font-size="12" fill="#52514e">Windows updates</text>
@@ -39,10 +39,10 @@
 <line x1="513.7" y1="302" x2="513.7" y2="308" stroke="#898781"><title>v1.2.8 (2026-10-29)</title></line>
 <line x1="602.0" y1="302" x2="602.0" y2="308" stroke="#898781"><title>v1.3.0 (2026-11-09)</title></line>
 <line x1="610.0" y1="302" x2="610.0" y2="308" stroke="#898781"><title>v1.3.1 (2026-11-10)</title></line>
-<polyline points="48.0,293.2 56.0,290.5 64.1,286.4 80.1,275.5 96.2,267.4 168.4,264.6 240.7,264.6 248.7,260.6 256.7,260.6 264.8,260.6 272.8,260.6 280.8,260.6 288.9,260.6 296.9,257.8 304.9,257.8 312.9,256.5 329.0,256.5 337.0,256.5 345.1,255.1 353.1,252.4 361.1,252.4 369.1,252.4 377.2,252.4 385.2,252.4 393.2,241.5 401.3,232.0 409.3,226.6 417.3,226.6 425.3,226.6 433.4,226.6 441.4,226.6 449.4,225.2 457.5,210.2 465.5,210.2 473.5,210.2 489.6,210.2 497.6,210.2 505.6,206.2 513.7,206.2 521.7,140.9 529.7,140.9 537.7,140.9 545.8,139.5 553.8,138.2 561.8,138.2 569.9,134.1 577.9,134.1 585.9,134.1 593.9,134.1 602.0,134.1 610.0,131.4" fill="none" stroke="#2a78d6" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
-<polyline points="48.0,300.0 56.0,300.0 64.1,300.0 80.1,300.0 96.2,300.0 168.4,300.0 240.7,300.0 248.7,300.0 256.7,300.0 264.8,300.0 272.8,300.0 280.8,300.0 288.9,300.0 296.9,300.0 304.9,300.0 312.9,300.0 329.0,300.0 337.0,300.0 345.1,300.0 353.1,300.0 361.1,300.0 369.1,300.0 377.2,300.0 385.2,300.0 393.2,300.0 401.3,300.0 409.3,300.0 417.3,300.0 425.3,300.0 433.4,300.0 441.4,300.0 449.4,300.0 457.5,300.0 465.5,300.0 473.5,300.0 489.6,300.0 497.6,300.0 505.6,300.0 513.7,300.0 521.7,266.0 529.7,266.0 537.7,266.0 545.8,266.0 553.8,266.0 561.8,266.0 569.9,266.0 577.9,266.0 585.9,266.0 593.9,266.0 602.0,266.0 610.0,263.3" fill="none" stroke="#1baf7a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
-<circle cx="610.0" cy="131.4" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>Windows updates: 124</title></circle>
-<text x="626.0" y="135.4" font-size="12" fill="#52514e"><tspan font-weight="600" fill="#0b0b0b">124</tspan> Windows updates</text>
-<circle cx="610.0" cy="263.3" r="4" fill="#1baf7a" stroke="#fcfcfb" stroke-width="2"><title>Linux updates: 27</title></circle>
-<text x="626.0" y="267.3" font-size="12" fill="#52514e"><tspan font-weight="600" fill="#0b0b0b">27</tspan> Linux updates</text>
+<polyline points="48.0,293.2 56.0,290.5 64.1,286.4 80.1,275.5 96.2,267.4 168.4,264.6 240.7,264.6 248.7,260.6 256.7,260.6 264.8,260.6 272.8,260.6 280.8,260.6 288.9,260.6 296.9,257.8 304.9,257.8 312.9,256.5 329.0,256.5 337.0,256.5 345.1,255.1 353.1,252.4 361.1,252.4 369.1,252.4 377.2,252.4 385.2,252.4 393.2,241.5 401.3,232.0 409.3,226.6 417.3,226.6 425.3,226.6 433.4,226.6 441.4,226.6 449.4,225.2 457.5,210.2 465.5,210.2 473.5,210.2 489.6,210.2 497.6,210.2 505.6,206.2 513.7,206.2 521.7,140.9 529.7,140.9 537.7,140.9 545.8,139.5 553.8,138.2 561.8,138.2 569.9,134.1 577.9,134.1 585.9,134.1 593.9,134.1 602.0,134.1 610.0,128.6" fill="none" stroke="#2a78d6" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="48.0,300.0 56.0,300.0 64.1,300.0 80.1,300.0 96.2,300.0 168.4,300.0 240.7,300.0 248.7,300.0 256.7,300.0 264.8,300.0 272.8,300.0 280.8,300.0 288.9,300.0 296.9,300.0 304.9,300.0 312.9,300.0 329.0,300.0 337.0,300.0 345.1,300.0 353.1,300.0 361.1,300.0 369.1,300.0 377.2,300.0 385.2,300.0 393.2,300.0 401.3,300.0 409.3,300.0 417.3,300.0 425.3,300.0 433.4,300.0 441.4,300.0 449.4,300.0 457.5,300.0 465.5,300.0 473.5,300.0 489.6,300.0 497.6,300.0 505.6,300.0 513.7,300.0 521.7,266.0 529.7,266.0 537.7,266.0 545.8,266.0 553.8,266.0 561.8,266.0 569.9,266.0 577.9,266.0 585.9,266.0 593.9,266.0 602.0,266.0 610.0,260.6" fill="none" stroke="#1baf7a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="610.0" cy="128.6" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>Windows updates: 126</title></circle>
+<text x="626.0" y="132.6" font-size="12" fill="#52514e"><tspan font-weight="600" fill="#0b0b0b">126</tspan> Windows updates</text>
+<circle cx="610.0" cy="260.6" r="4" fill="#1baf7a" stroke="#fcfcfb" stroke-width="2"><title>Linux updates: 29</title></circle>
+<text x="626.0" y="264.6" font-size="12" fill="#52514e"><tspan font-weight="600" fill="#0b0b0b">29</tspan> Linux updates</text>
 </svg>
