@@ -8,14 +8,14 @@ Back to the [main README](https://github.com/VDiPaola/Kickerino-releases).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/VDiPaola/Kickerino-releases/stats/total-dark.svg">
-  <img alt="Line chart of cumulative installs over time, including the Microsoft Store. Total: 952." src="https://raw.githubusercontent.com/VDiPaola/Kickerino-releases/stats/total-light.svg">
+  <img alt="Line chart of cumulative installs over time, including the Microsoft Store. Total: 957." src="https://raw.githubusercontent.com/VDiPaola/Kickerino-releases/stats/total-light.svg">
 </picture>
 
 ## Installer downloads
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/VDiPaola/Kickerino-releases/stats/installs-dark.svg">
-  <img alt="Line chart of cumulative installer downloads over time. Total: 303." src="https://raw.githubusercontent.com/VDiPaola/Kickerino-releases/stats/installs-light.svg">
+  <img alt="Line chart of cumulative installer downloads over time. Total: 308." src="https://raw.githubusercontent.com/VDiPaola/Kickerino-releases/stats/installs-light.svg">
 </picture>
 
 ## Microsoft Store
@@ -31,19 +31,19 @@ Back to the [main README](https://github.com/VDiPaola/Kickerino-releases).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/VDiPaola/Kickerino-releases/stats/updates-dark.svg">
-  <img alt="Line chart of cumulative update package downloads over time. Total: 155." src="https://raw.githubusercontent.com/VDiPaola/Kickerino-releases/stats/updates-light.svg">
+  <img alt="Line chart of cumulative update package downloads over time. Total: 158." src="https://raw.githubusercontent.com/VDiPaola/Kickerino-releases/stats/updates-light.svg">
 </picture>
 
 ## Current totals
 
-As of 2026-11-10 (latest release: v1.3.1).
+As of 2026-11-11 (latest release: v1.3.1).
 
 | Release file | Downloads |
 |---|---|
-| Windows Setup | 188 |
+| Windows Setup | 191 |
 | Windows Portable | 74 |
-| Linux AppImage | 41 |
-| Windows updates | 126 |
+| Linux AppImage | 43 |
+| Windows updates | 129 |
 | Linux updates | 29 |
 
 ## How the data is collected
