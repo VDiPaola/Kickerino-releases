@@ -8,42 +8,42 @@ Back to the [main README](https://github.com/VDiPaola/Kickerino-releases).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/VDiPaola/Kickerino-releases/stats/total-dark.svg">
-  <img alt="Line chart of cumulative installs over time, including the Microsoft Store. Total: 981." src="https://raw.githubusercontent.com/VDiPaola/Kickerino-releases/stats/total-light.svg">
+  <img alt="Line chart of cumulative installs over time, including the Microsoft Store. Total: 1,379." src="https://raw.githubusercontent.com/VDiPaola/Kickerino-releases/stats/total-light.svg">
 </picture>
 
 ## Installer downloads
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/VDiPaola/Kickerino-releases/stats/installs-dark.svg">
-  <img alt="Line chart of cumulative installer downloads over time. Total: 332." src="https://raw.githubusercontent.com/VDiPaola/Kickerino-releases/stats/installs-light.svg">
+  <img alt="Line chart of cumulative installer downloads over time. Total: 353." src="https://raw.githubusercontent.com/VDiPaola/Kickerino-releases/stats/installs-light.svg">
 </picture>
 
 ## Microsoft Store
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/VDiPaola/Kickerino-releases/stats/ms-store-dark.svg">
-  <img alt="Line chart of cumulative Microsoft Store installs over time. Total: 649." src="https://raw.githubusercontent.com/VDiPaola/Kickerino-releases/stats/ms-store-light.svg">
+  <img alt="Line chart of cumulative Microsoft Store installs over time. Total: 1,026." src="https://raw.githubusercontent.com/VDiPaola/Kickerino-releases/stats/ms-store-light.svg">
 </picture>
 
-649 installs as of 2026-11-07, the last day in the uploaded report.
+1,026 installs as of 2026-11-17, the last day in the uploaded report.
 
 ## Updates
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/VDiPaola/Kickerino-releases/stats/updates-dark.svg">
-  <img alt="Line chart of cumulative update package downloads over time. Total: 170." src="https://raw.githubusercontent.com/VDiPaola/Kickerino-releases/stats/updates-light.svg">
+  <img alt="Line chart of cumulative update package downloads over time. Total: 171." src="https://raw.githubusercontent.com/VDiPaola/Kickerino-releases/stats/updates-light.svg">
 </picture>
 
 ## Current totals
 
-As of 2026-11-18 (latest release: v1.3.3).
+As of 2026-11-19 (latest release: v1.3.3).
 
 | Release file | Downloads |
 |---|---|
-| Windows Setup | 204 |
-| Windows Portable | 78 |
-| Linux AppImage | 50 |
-| Windows updates | 139 |
+| Windows Setup | 218 |
+| Windows Portable | 83 |
+| Linux AppImage | 52 |
+| Windows updates | 140 |
 | Linux updates | 31 |
 
 ## How the data is collected
